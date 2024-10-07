@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+li,ol{
+    list-style-type: none;
+
+}
+
+:root{
+    --cmn-clr:#02918b;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav{
+    background-color: var(--cmn-clr);
+
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+nav .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    color: #ffff;
+    transition: 0.5s;
+    
+    
+
+}
+
+nav ul li a:hover{
+    background-color: #cfc91d;
+}
+
+/* nav style end */
+
+/* banner section start */
+
+#banner{
+    background-image: url(./image/MYFOLIO\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+}
+
+#banner .container{
+    height: 100%;
+}
+
+#banner .row{
+    flex-direction: column;
+    height: 100%;
+    color: white;
+
+    
+    
+    
+    
+   
+    
+}
+
+
+#banner h3{
+    font-size: 30px;
+}
+#banner h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    
+    
+}
+#banner p{
+    font-size: 18px;
+}
+#banner .line{
+    margin: 27px 0;
+    
+}
+
+#banner .line img{
+    width: 100%;
+}
+#banner a{
+    background-color: yellow;
+    color: black;
+    padding: 24px 22px;
+    
+}
+/* Banner section end */
+
+#about .heading h1{
+    color: var(--cmn-clr);
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    
+}
+
+#about{
+    margin-top: 100px;
+    
+}
+
+#about .heading p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    
+    
+
+}
+
+#about .heading .dot{
+    margin: 23px 0px;
+}
+
+#about span{
+    
+    font-size: 23px;
+    color: #7e8287;
+    font-weight: 800;
+}
+
+#about .dash{
+    text-align: center;
+}
+.Service .container .row{
+    justify-content: space-between;
+}
+.Service .class_1{
+    margin: 20px 0;
+}
